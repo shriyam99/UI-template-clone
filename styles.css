@@ -1,0 +1,24 @@
+
+:root {
+    --primary-color: #673de0;
+    --primary-background-color: rgb(236, 236, 236);
+    --text-color: rgb(107, 107, 107);
+    --text-hover-color: rgb(32, 32, 32);
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}

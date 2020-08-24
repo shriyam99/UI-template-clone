@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skynox Internship Project</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="side-bar.css">
+    <link rel="stylesheet" href="nav-bar.css">
+    <link rel="stylesheet" href="main-content.css">
+    <link rel="stylesheet" href="card-options.css">
+    <link rel="stylesheet" href="graphs.css">
+</head>
+<body>
+    <div class="side-bar">
+        <a href="/"><img src="brand.jpg" alt="image not found"></a>
+        <button class="mybutton">Register patient <i class="fas fa-plus"></i></button>
+        <div class="bar-options">
+            <div class="option">
+                <i class="fas fa-user-injured"></i><p>Patients</p>
+            </div>
+            <div class="option">
+                <i class="fas fa-chart-pie"></i><p>Overview</p>
+            </div>
+            <div class="option">
+                <i class="fas fa-map-marker-alt"></i><p>Map</p>
+            </div>
+            <div class="option">
+                <i class="fas fa-home"></i><p>Departments</p>
+            </div>
+            <div class="option">
+                <i class="fas fa-notes-medical"></i><p>Doctors</p>
+            </div>
+            <div class="option">
+                <i class="fas fa-history"></i><p>History</p>
+            </div>
+            <div class="option settings">
+                <i class="fas fa-cog"></i><p>Settings</p>
+            </div>
+        </div> 
+        <div class="image-box">
+            <img src="/bottomicon.jpg" alt="Image not found">
+            <p>Get Mobile App</p>
+            <div class="sociallinks">
+                <a href="/"><i class="fab fa-google-play"></i></a>
+                <a href="/"><i class="fab fa-apple"></i></a>
+            </div>
+        </div>
+
+    </div>
+    <div class="main-content">
+        <div class="navbar">
+            <div class="textfield">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search...">
+            </div>
+            <div class="notifier"><i class="fas fa-bell"></i></div>
+            <div class="user">
+            <i class="far fa-user"></i>
+            <p>Shriyam</p>
+            <i class="fas fa-angle-down"></i>
+            </div>
+        </div>
+
+        <div class="card-options">
+            <div class="card">
+                <i class="fas fa-procedures"></i>
+                <div class="col">
+                    <h1>3,256</h1>
+                    <p>Total patients</p>
+                </div>
+                <div class="menu">
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fas fa-users"></i>
+                <div class="col">
+                    <h1>394</h1>
+                    <p>Available Staff</p>
+                </div>
+                <div class="menu">
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fas fa-archive"></i>
+                <div class="col">
+                    <h1>$2,536</h1>
+                    <p>Avg Treat. Costs</p>
+                </div>
+                <div class="menu">
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fas fa-ambulance"></i>
+                <div class="col">
+                    <h1>32</h1>
+                    <p>Available Cars</p>
+                </div>
+                <div class="menu">
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="graphs">
+            <div class="chart">
+                <h1>Outpatients vs. Inpatients Trend</h1>
+                <img src="chart1.jpg" alt="img not found">
+            </div>
+            <div class="chart">
+                <h1>Show by months<i class="fas fa-angle-down" id="dropdown"></i></h1>
+                <img src="chart2.jpg" alt="img not found">
+            </div>
+            <div class="chart">
+                <h1>Patients by Gender</h1>
+                <img src="chart3.jpg" alt="img not found">
+            </div>
+        </div>
+
+        <div class="graphs">
+            <div class="chart">
+                <h1>Time Admitted <p>Today <i class="fas fa-angle-down"></i></p></h1>
+                <img src="chart4.jpg" alt="img not found">
+            </div>
+            <div class="division">
+                <h1>Patients by Division <i class="fas fa-angle-down"></i></h1>
+                <div class="option disabled">
+                    <h1><i class="fas fa-home"></i> Division</h1>
+                    <h3>PT.</h3>
+                </div>
+                <div class="option">
+                    <h1><i class="fas fa-heartbeat"></i> Cardiology</h1>
+                    <h3>247</h3>
+                </div>
+                <div class="option">
+                    <h1><i class="fas fa-brain"></i> Neurology</h1>
+                    <h3>164</h3>
+                </div>
+                <div class="option">
+                    <h1><i class="fas fa-cut"></i> Surgery</h1>
+                    <h3>86</h3>
+                </div>
+            </div>
+            <img src="chart5.jpg" id="chart5" alt="img not found">
+        </div>
+    </div>
+</body>
+</html>

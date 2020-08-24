@@ -1,6 +1,6 @@
 # UI-template-clone
 
-![Image not found](/image.jpg)
+<img src="./image.jpg" />
 
 A simple UI-template using nothing but HTML and CSS.
 

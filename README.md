@@ -1,6 +1,6 @@
 # UI-template-clone
 
-<img src="./image.jpg" />
+<img src="./image.png" />
 
 A simple UI-template using nothing but HTML and CSS.
 
